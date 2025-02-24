@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Catholic Bible Chapter Generator</title>
+    <title>Divine Guidance Through Scripture - Catholic Bible Companion</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,6 +39,28 @@
         .btn:hover {
             background-color: #6B0000;
         }
+        .prayer-text {
+            margin: 20px 0 30px;
+            padding: 20px;
+            background-color: #f8f4e6;
+            border-left: 4px solid #8B0000;
+            border-radius: 4px;
+            line-height: 1.6;
+            font-style: italic;
+            color: #555;
+        }
+        
+        .prayer-text h3 {
+            color: #8B0000;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        
+        .prayer-text p {
+            margin-bottom: 15px;
+        }
+        
         #result {
             margin-top: 20px;
             padding: 15px;
@@ -70,9 +92,22 @@
 <body>
     <div class="container">
         <div class="bible-icon">✝️</div>
-        <h1>Random Catholic Bible Chapter</h1>
+        <h1>Divine Guidance Through Scripture</h1>
         
-        <button id="generateBtn" class="btn">Generate Random Chapter</button>
+        <div id="prayer" class="prayer-text">
+            <h3>Opening Prayer</h3>
+            <p>In the name of the Father and of the Son and of the Holy Spirit. Amen.</p>
+            
+            <p>O my Holy Spirit, the Spirit of Truth, the Spirit whom our Lord Jesus gave to guide us,
+            I am giving myself completely to Thee. Please provide me with the Bible verse that my Almighty Father wishes to speak to me.</p>
+            
+            <p>O my Holy Trinity, Thou art the creator of all things visible and invisible. Through this means, please provide me with the Bible verse that is necessary for the situation I am in, and please guide
+            and teach me through this Holy Scripture. I thank Thee for giving this verse and for Thy Love and Guidance. Thank Thee, Lord.</p>
+            
+            <p>Glory be to the Father and to the Son and to the Holy Spirit. Amen.</p>
+        </div>
+        
+        <button id="generateBtn" class="btn">Receive Today's Scripture Guidance</button>
         
         <div id="result">
             <div id="chapterTitle"></div>
