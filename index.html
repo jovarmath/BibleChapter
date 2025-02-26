@@ -118,11 +118,11 @@
         }
         
         .prayer-text::before {
-            content: '"';
+            content: "✝";
             position: absolute;
             left: 10px;
             top: 5px;
-            font-size: 60px;
+            font-size: 40px;
             color: rgba(139, 0, 0, 0.1);
             font-family: Georgia, serif;
         }
@@ -495,7 +495,7 @@
                     {
                         title: "Old Testament Commentary",
                         description: "Catholic commentary on the Old Testament from Church Fathers and scholars.",
-                        url: "https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=35492",
+                        url: "https://www.usccb.org/bible/understanding-the-bible/study-materials",
                         icon: "fas fa-book-open"
                     },
                     {
@@ -515,7 +515,7 @@
                     {
                         title: "Torah Studies",
                         description: "Catholic perspectives on the first five books of the Bible.",
-                        url: "https://www.catholic.com/encyclopedia/pentateuch",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-torah"
                     }
                 ],
@@ -523,7 +523,7 @@
                     {
                         title: "Biblical History",
                         description: "Historical context and Catholic understanding of the historical books.",
-                        url: "https://www.catholic.com/encyclopedia/history-biblical",
+                        url: "https://www.usccb.org/bible/understanding-the-bible/study-materials",
                         icon: "fas fa-landmark"
                     }
                 ],
@@ -531,7 +531,7 @@
                     {
                         title: "Wisdom Literature",
                         description: "Catholic insights into the Wisdom books of the Bible.",
-                        url: "https://www.catholic.com/encyclopedia/wisdom-books-of-the-old-testament",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-brain"
                     }
                 ],
@@ -539,7 +539,7 @@
                     {
                         title: "Prophets and Prophecy",
                         description: "Catholic understanding of biblical prophecy and the Prophets.",
-                        url: "https://www.catholic.com/encyclopedia/prophecy-prophet-and-prophetess",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-fire"
                     }
                 ],
@@ -547,7 +547,7 @@
                     {
                         title: "Deuterocanonical Books",
                         description: "Catholic teaching on the deuterocanonical books excluded from Protestant Bibles.",
-                        url: "https://www.catholic.com/tract/the-old-testament-canon",
+                        url: "https://www.usccb.org/bible/understanding-the-bible/study-materials",
                         icon: "fas fa-book"
                     }
                 ]
@@ -557,7 +557,7 @@
                     {
                         title: "New Testament Commentary",
                         description: "Catholic commentary on the New Testament from Church Fathers and scholars.",
-                        url: "https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=35493",
+                        url: "https://www.usccb.org/bible/understanding-the-bible/study-materials",
                         icon: "fas fa-book-open"
                     },
                     {
@@ -577,13 +577,13 @@
                     {
                         title: "Gospel Studies",
                         description: "Catholic understanding of the four Gospels.",
-                        url: "https://www.catholic.com/encyclopedia/gospel-and-gospels",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-cross"
                     },
                     {
                         title: "Life of Christ",
                         description: "Catholic teachings about the life and ministry of Jesus Christ.",
-                        url: "https://www.catholic.com/encyclopedia/jesus-christ",
+                        url: "https://www.usccb.org/beliefs-and-teachings/who-we-teach/adults/the-life-of-christ",
                         icon: "fas fa-heart"
                     }
                 ],
@@ -591,7 +591,7 @@
                     {
                         title: "Pauline Letters",
                         description: "Catholic study of St. Paul's epistles and theology.",
-                        url: "https://www.catholic.com/encyclopedia/paul-saint",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-envelope-open-text"
                     }
                 ],
@@ -599,7 +599,7 @@
                     {
                         title: "Catholic Epistles",
                         description: "Commentary on the Catholic (or Universal) Epistles.",
-                        url: "https://www.catholic.com/encyclopedia/epistles",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-envelope"
                     }
                 ],
@@ -607,7 +607,7 @@
                     {
                         title: "Book of Revelation",
                         description: "Catholic interpretation of the Apocalypse of St. John.",
-                        url: "https://www.catholic.com/tract/the-rapture",
+                        url: "https://www.usccb.org/bible/books-of-the-bible",
                         icon: "fas fa-sun"
                     }
                 ]
@@ -736,7 +736,7 @@
             const bookSpecificResource = {
                 title: `Study ${book}`,
                 description: `Catholic commentary and study guide specific to ${book}.`,
-                url: `https://catholic.bible/category/${encodeURIComponent(book.toLowerCase().replace(/\s+/g, '-'))}/`,
+                url: `https://www.usccb.org/bible/${encodeURIComponent(book.toLowerCase().replace(/\s+/g, '-'))}`,
                 icon: "fas fa-bookmark"
             };
             
